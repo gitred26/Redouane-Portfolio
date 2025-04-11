@@ -1,19 +1,21 @@
-/* The UPDATED VERSION OF CSS on 9th of March 2025*/
+/* 
+The UPDATED VERSION OF CSS on 9th of March 2025
+The UPDATED VERSION OF CSS on 4/11/2025
+*/
 
 h1, footer {
     text-align: center;
 }
-
 body {
-    background-color:antiquewhite;
+    background-color: lightgrey;
     font-family: 'Courier New', Courier, monospace;
     font-size: 110%;
     text-align: justify;
 }
-
 h1 {
-    font-family: 'Playfair Display', 'Georgia', serif;
+    font-family: 'Courier New', Courier, monospace;
 }
+
 
 h2 {
     color: brown;
@@ -21,6 +23,23 @@ h2 {
 
 .heading-2 {
     color: burlywood;
-    background-color:brown;
+    background-color: brown;
     font-family: 'Playfair Display', 'Georgia', serif;
+    padding: 5px;
+    border-radius: 8px;
+}
+div .projects {
+    display: inline flex;
+    
+}
+
+#me h1, img {
+    margin-left: 16px;
+    padding-top: 20px;
+    display: inline-block;
+    border: 1px solid;
+}
+header {
+    border: 1px solid;
+    padding-top: 10px;
 }
